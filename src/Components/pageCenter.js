@@ -3,7 +3,7 @@ import React from "react";
 function Center() {
     return(
         <div>
-            <img src='logo192.png'/>
+            {/*<img src='logo192.png'/>*/}
         </div>
     )
 }
