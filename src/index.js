@@ -12,7 +12,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 const Head = () => {
     return (<div>
-            <h1>Hello World!</h1>
+            {/*<h1>Hello World!</h1>*/}
             <Header/>
             <List/>
         </div>
@@ -23,7 +23,7 @@ const Head = () => {
     ReactDOM.render(
         <Head/>,
         // <Header/>,
-        document.getElementById('root')
+        document.getElementById('root'),
 
     );
 
