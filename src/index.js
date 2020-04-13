@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Header from "./Components/Common/Header";
-import './index.css';
 import List from './Components/Common/list/List'
 
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -13,7 +11,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 const Head = () => {
     return (<div>
             {/*<h1>Hello World!</h1>*/}
-            <Header/>
+            {/*<Header/>*/}
             <List/>
         </div>
     )
